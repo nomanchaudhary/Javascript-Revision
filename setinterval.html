@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <button style="padding: 50px; font-size: 20px" id="start">Start</button>
+      <button style="padding: 50px; font-size: 20px" id="stop">Stop</button>
+    </div>
+  </body>
+  <script>
+    const start = document.getElementById("start");
+    const stop = document.getElementById("stop");
+    let intervalID;
+    start.addEventListener("click", function () {
+      intervalID = setInterval(() => {
+        console.log("Hey Noman");
+      }, 1000);
+    });
+    stop.addEventListener("click", function () {
+      clearInterval(intervalID);
+    });
+  </script>
+</html>
