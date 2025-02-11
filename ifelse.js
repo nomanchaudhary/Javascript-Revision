@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         //********************************CONTROL FLOW*******************************************
         //*************If else******************************
         const User= "Noman";
@@ -17,6 +9,3 @@
             console.log(`Please Enter correct name`)
         }
         //****************************&& AND || ************************** USE THEM TO CHECK AND VALUE AND OR VALUE DIFFERENCE
-    </script>
-</body>
-</html>

@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script> //******************Arrays and methods of array**************************
+//******************Arrays and methods of array**************************
         const myarr = [0, 1, 2, 3, 4, 5];
         console.log(myarr.length);
         console.log(myarr.indexOf(4));
@@ -17,6 +9,4 @@
         console.log(myarr);
         //slice and splice difference ....... 
         //slice did not manipulate the original array 
-        //splice manipulate the original array </script>
-</body>
-</html>
+        //splice manipulate the original array

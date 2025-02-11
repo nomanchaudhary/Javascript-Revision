@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         //So here we practice loops
         //For Loop
         for(let i=1; i<=10; i++){
@@ -25,7 +17,3 @@
         for (const name of myArr) {
             console.log(name);
         }
-
-    </script>
-</body>
-</html>
